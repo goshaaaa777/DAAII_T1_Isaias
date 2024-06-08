@@ -10,4 +10,6 @@ public interface IUsuarioService {
     void actualizarUsuario(Usuario usuario);
     List<Usuario> listarUsuario();
     Usuario buscarUsuarioXIdUsuario(Integer idUsuario);
+
+
 }

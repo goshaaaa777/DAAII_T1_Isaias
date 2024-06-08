@@ -22,7 +22,6 @@ public class UsuarioService implements IUsuarioService{
     public Usuario buscarUsuarioXNombreUsuario(String nomusuario) {
         return usuarioRepository.findByNomusuario(nomusuario);
     }
-
     @Override
     public Usuario guardarUsuario(Usuario usuario) {
         BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
